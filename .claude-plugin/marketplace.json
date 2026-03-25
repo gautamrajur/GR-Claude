@@ -12,7 +12,7 @@
       "description": "Personal finance and expense management skills — split bills, track shared expenses, generate Splitwise-ready reports",
       "source": "./plugins/gr-finance",
       "skills": [
-        "./plugins/gr-finance/skills/splitwise"
+        "./skills/splitwise"
       ]
     }
   ]
