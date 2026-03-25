@@ -2,38 +2,41 @@
 
 A personal Claude Code marketplace by Gautam Raju.
 
-## Install
+## Install the Marketplace
 
-Add this marketplace in Claude Code:
 ```
 /plugin marketplace add gautamrajur/GR-Claude
 ```
 
 ## Plugins
 
-### `gr-finance`
-Personal finance and expense management skills.
-
+### `gr-finance` — Personal Finance
 | Skill | Description |
 |-------|-------------|
 | `splitwise` | Parse bills & receipts, confirm splits, generate Splitwise-ready xlsx |
 
-**Install:**
 ```
 /plugin install gr-finance@gr-claude
 ```
 
-**Use:** Share your credit card statement or receipts and type `/splitwise`
+### `gr-content` — Content Creation
+| Skill | Description |
+|-------|-------------|
+| `linkedin-post` | Write LinkedIn posts in your personal voice — configure once, use forever |
 
-## Adding This Marketplace
+```
+/plugin install gr-content@gr-claude
+```
+
+## Usage
 
 ```bash
-# 1. Add the marketplace
-/plugin marketplace add gautamrajur/GR-Claude
+# Finance
+/splitwise        # share a bill or receipt to get started
 
-# 2. Install a plugin
-/plugin install gr-finance@gr-claude
-
-# 3. Use a skill
-/splitwise
+# Content
+/linkedin-post    # provide a topic or context to write a post
 ```
+
+## First Run
+Both skills require a one-time setup — fill in `references/setup.md` with your personal config (people/groups for splitwise, voice/style for linkedin-post).
