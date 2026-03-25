@@ -1,0 +1,8 @@
+{
+  "name": "gr-finance",
+  "description": "Personal finance and expense management skills — split bills, track shared expenses, generate Splitwise-ready reports",
+  "author": {
+    "name": "Gautam Raju",
+    "email": "reachgautam10@gmail.com"
+  }
+}

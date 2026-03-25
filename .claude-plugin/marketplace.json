@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gr-claude",
+  "description": "GR-Claude: A personal marketplace of Claude Code skills by Gautam Raju covering finance, content, and productivity",
+  "owner": {
+    "name": "Gautam Raju",
+    "email": "reachgautam10@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "gr-finance",
+      "description": "Personal finance and expense management skills — split bills, track shared expenses, generate Splitwise-ready reports",
+      "source": "./plugins/gr-finance",
+      "skills": [
+        "./plugins/gr-finance/skills/splitwise"
+      ]
+    }
+  ]
+}
