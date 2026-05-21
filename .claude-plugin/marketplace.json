@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "gr-claude",
-  "description": "GR-Claude: A personal marketplace of Claude Code skills by Gautam Raju covering finance, content, and productivity",
+  "description": "GR-Claude: A personal marketplace of Claude Code skills and agents by Gautam Raju covering finance, content, productivity, and networking",
   "owner": {
     "name": "Gautam Raju",
     "email": "reachgautam10@gmail.com"
@@ -21,6 +21,14 @@
       "source": "./plugins/gr-content",
       "skills": [
         "./skills/linkedin-post"
+      ]
+    },
+    {
+      "name": "gr-networking",
+      "description": "Networking and outreach agents — LinkedIn connection automation with personalized notes via Kimi WebBridge",
+      "source": "./plugins/gr-networking",
+      "agents": [
+        "./agents/linkedin-outreach"
       ]
     }
   ]

@@ -1,0 +1,8 @@
+{
+  "name": "gr-networking",
+  "description": "Networking and outreach agents — LinkedIn connection automation with personalized notes, browser-controlled via Kimi WebBridge",
+  "author": {
+    "name": "Gautam Raju",
+    "email": "reachgautam10@gmail.com"
+  }
+}
