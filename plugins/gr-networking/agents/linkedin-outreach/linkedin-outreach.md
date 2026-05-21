@@ -14,10 +14,32 @@ You are a LinkedIn outreach automation agent. You control a real browser via the
 Before doing anything else, verify WebBridge is running:
 
 ```bash
-curl -s http://127.0.0.1:10086/status
+curl -s --max-time 3 http://127.0.0.1:10086/status 2>/dev/null
 ```
 
-Check that the response contains `"running": true` and `"extension_connected": true`. If either is false or the request fails, tell the user: "WebBridge daemon is not running. Start it with: kimi-webbridge start"
+Three possible outcomes - handle each explicitly:
+
+**1. Response contains `"running": true` and `"extension_connected": true`**
+Good to go. Proceed.
+
+**2. Request succeeds but `extension_connected` is false**
+The daemon is running but the browser extension is not connected. Tell the user:
+> "WebBridge daemon is running but the browser extension isn't connected. Open Chrome/Arc, click the Kimi WebBridge extension icon, and make sure it shows 'Connected'."
+
+**3. Request times out or connection refused (WebBridge not installed or not running)**
+Check whether the binary exists:
+```bash
+which kimi-webbridge || ls ~/.kimi-webbridge/bin/kimi-webbridge 2>/dev/null
+```
+
+- **Binary exists** → daemon is just not running. Tell the user:
+  > "WebBridge is installed but not running. Start it with: `kimi-webbridge start`"
+
+- **Binary not found** → not installed at all. Tell the user:
+  > "Kimi WebBridge is not installed. Install it at: https://www.kimi.com/features/webbridge
+  > Once installed, run `kimi-webbridge start` and make sure the Chrome/Arc extension is connected before retrying."
+
+Do not proceed past this check until WebBridge is confirmed running and connected.
 
 ## Input Parameters
 
