@@ -32,6 +32,14 @@
       ]
     },
     {
+      "name": "jobs-ops",
+      "description": "jobs-ops: job search pipeline for Gautam - evaluate offers, scan Greenhouse/Lever/Ashby portals, track applications, fill forms via kimi-webbridge",
+      "source": "./plugins/jobs-ops",
+      "skills": [
+        "./skills/jobs-ops"
+      ]
+    },
+    {
       "name": "agentkit",
       "description": "AgentKit: scaffold new domain-specific agents from the lightweight-agent template. One command creates a career-ops-caliber agent for any domain, without npm.",
       "source": "./plugins/agentkit",
