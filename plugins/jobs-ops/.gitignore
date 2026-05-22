@@ -1,0 +1,18 @@
+# runtime environment
+.venv/
+*.pyc
+__pycache__/
+.DS_Store
+
+# generated output (PDFs, HTMLs)
+output/
+
+# batch runtime
+batch/logs/
+batch/tracker-additions/
+
+# user data - stays local, never committed
+data/
+reports/
+config/profile.yml
+modes/_profile.md
