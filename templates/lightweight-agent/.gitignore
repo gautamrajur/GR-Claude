@@ -1,0 +1,6 @@
+.venv/
+output/
+batch/logs/
+batch/tracker-additions/merged/
+*.pyc
+__pycache__/

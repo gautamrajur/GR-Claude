@@ -1,0 +1,42 @@
+# {AgentName} Profile
+# Edit this file to customize your agent's behavior.
+# This file is in the user layer - it will never be overwritten by system updates.
+
+agent:
+  name: "{AgentName}"
+  domain: "{domain description}"
+
+user:
+  name: ""
+  email: ""
+  location: ""
+
+# Primary targets for evaluation scoring
+targets:
+  primary: []         # e.g., ["target type A", "target type B"]
+  secondary: []
+
+# Scoring thresholds
+scoring:
+  apply_threshold: 4.0    # Score >= this: recommend applying
+  review_threshold: 3.5   # Score >= this: worth reviewing
+  skip_threshold: 2.0     # Score < this: auto-skip
+
+# Compensation (customize to your domain if relevant)
+comp:
+  target: ""
+  minimum: ""
+  currency: "USD"
+
+# Deal-breakers (auto-skip regardless of score)
+dealbreakers: []
+# e.g.:
+# - "requires citizenship"
+# - "on-site only"
+
+# Narrative (used for personalization in reports and applications)
+narrative:
+  superpower: ""          # Your unique differentiator
+  best_achievement: ""    # Lead achievement to highlight
+  deal_breakers: ""       # What you won't accept
+  excites_you: ""         # What kind of work excites you

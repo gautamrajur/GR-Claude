@@ -30,6 +30,14 @@
       "agents": [
         "./agents/linkedin-outreach"
       ]
+    },
+    {
+      "name": "agentkit",
+      "description": "AgentKit: scaffold new domain-specific agents from the lightweight-agent template. One command creates a career-ops-caliber agent for any domain, without npm.",
+      "source": "./plugins/agentkit",
+      "skills": [
+        "./skills/scaffold"
+      ]
     }
   ]
 }
