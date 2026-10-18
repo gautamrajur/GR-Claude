@@ -3,11 +3,11 @@
 Configure this file once. Claude will use it every time you run `/linkedin-post`.
 
 ## Your Persona
-Describe who you are professionally — Claude uses this to write in your voice:
+Describe who you are professionally. Claude uses this to write in your voice:
 ```
 persona: |
   [e.g. AI/backend engineer who ships production systems. Confident, direct,
-  zero corporate fluff. Speaks like someone who has built things — not someone
+  zero corporate fluff. Speaks like someone who has built things, not someone
   trying to sound impressive.]
 ```
 
@@ -15,12 +15,12 @@ persona: |
 Define your preferred post format:
 ```
 structure: |
-  [HOOK — ≤ 10 words, punchy. Never start with "I"]
+  [HOOK: ≤ 10 words, punchy. Never start with "I"]
 
-  [BODY — short paragraphs, stacked sentences, specific numbers]
-  [Bold key metrics and project names only — not decoration]
+  [BODY: short paragraphs, stacked sentences, specific numbers]
+  [Bold key metrics and project names only, not decoration]
 
-  [CLOSING — bold declaration OR forward CTA]
+  [CLOSING: bold declaration OR forward CTA]
 
   #Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4
 ```
@@ -67,6 +67,20 @@ banned:
   - game-changer
   - disrupting
   - I'm proud to
+  - "—" (em dash: use a hyphen (-) or rephrase)
+```
+
+## AI-Sounding Patterns (never use these)
+These make a post read as machine-written even without banned words:
+```
+ai_patterns:
+  - Em dashes (—) for asides or dramatic pauses
+  - "It's not X, it's Y" / "not just X, but Y" framing
+  - Colon reveals: "Here's the thing:", "The result?", "The lesson:"
+  - Stock openers: "In today's fast-paced world", "Let's dive in", "Let that sink in"
+  - Filler words: delve, tapestry, landscape, unlock, elevate, seamless, robust
+  - Three adjectives in a row ("fast, scalable, and reliable")
+  - Emoji as bullet points or section markers
 ```
 
 ## Post Types
