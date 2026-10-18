@@ -67,7 +67,7 @@ banned:
   - game-changer
   - disrupting
   - I'm proud to
-  - "—" (em dash: use a hyphen (-) or rephrase)
+  - em dash (—), use a hyphen (-) or rephrase
 ```
 
 ## AI-Sounding Patterns (never use these)
@@ -75,10 +75,10 @@ These make a post read as machine-written even without banned words:
 ```
 ai_patterns:
   - Em dashes (—) for asides or dramatic pauses
-  - "It's not X, it's Y" / "not just X, but Y" framing
-  - Colon reveals: "Here's the thing:", "The result?", "The lesson:"
-  - Stock openers: "In today's fast-paced world", "Let's dive in", "Let that sink in"
-  - Filler words: delve, tapestry, landscape, unlock, elevate, seamless, robust
+  - Framing like "It's not X, it's Y" or "not just X, but Y"
+  - Colon reveals such as "Here's the thing", "The result?" and "The lesson"
+  - Stock openers such as "In today's fast-paced world", "Let's dive in" and "Let that sink in"
+  - Filler words such as delve, tapestry, landscape, unlock, elevate, seamless, robust
   - Three adjectives in a row ("fast, scalable, and reliable")
   - Emoji as bullet points or section markers
 ```
