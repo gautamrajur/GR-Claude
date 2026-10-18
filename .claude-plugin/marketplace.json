@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "gr-finance",
-      "description": "Personal finance and expense management skills — split bills, track shared expenses, generate Splitwise-ready reports",
+      "description": "Personal finance and expense management skills: split bills, track shared expenses, generate Splitwise-ready reports",
       "source": "./plugins/gr-finance",
       "skills": [
         "./skills/splitwise"
@@ -17,7 +17,7 @@
     },
     {
       "name": "gr-content",
-      "description": "Content creation skills — write LinkedIn posts and professional content in your personal voice",
+      "description": "Content creation skills: write LinkedIn posts and professional content in your personal voice",
       "source": "./plugins/gr-content",
       "skills": [
         "./skills/linkedin-post"
@@ -25,7 +25,7 @@
     },
     {
       "name": "gr-networking",
-      "description": "Networking and outreach agents — LinkedIn connection automation with personalized notes via Kimi WebBridge",
+      "description": "Networking and outreach agents: LinkedIn connection automation with personalized notes via Kimi WebBridge",
       "source": "./plugins/gr-networking",
       "agents": [
         "./agents/linkedin-outreach"

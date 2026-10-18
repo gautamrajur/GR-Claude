@@ -53,6 +53,7 @@ Ask for required parameters if missing.
 
 Craft a note for each profile before touching the browser. Rules:
 - Hard limit: 300 characters. Count before using. Trim the middle observation if over.
+- Never use em dashes (—). Use a hyphen (-) or rephrase. Notes should read like a person typed them.
 - Pattern: `Hi [First]! [sender_name] here, [sender_context]. [One specific observation]. Curious [topic question]. Would love to stay connected!`
 
 ## Connection flow (per profile)

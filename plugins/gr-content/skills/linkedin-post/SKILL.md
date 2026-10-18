@@ -5,7 +5,7 @@ description: Write a LinkedIn post in the user's personal voice. Trigger on /lin
 
 # LinkedIn Post Writer
 
-Write LinkedIn posts in the user's configured voice — direct, data-driven, no corporate fluff.
+Write LinkedIn posts in the user's configured voice: direct, data-driven, no corporate fluff.
 
 ## First Run Setup
 
@@ -31,22 +31,25 @@ Using the user's configured voice from setup.md:
 - End with hashtags on their own line
 
 ### 3. Self-Check Before Presenting
-Run through this checklist silently — only present the post if it passes:
+Run through this checklist silently. Only present the post if it passes:
 - [ ] Hook ≤ 10 words and doesn't start with "I"?
 - [ ] At least one concrete number or specific detail?
 - [ ] Bold on 1–3 key phrases max?
 - [ ] Zero banned phrases?
+- [ ] No em dashes (—) anywhere?
+- [ ] Reads like a person wrote it, with none of the AI-sounding patterns from setup.md?
 - [ ] Closing is a declaration, CTA, or genuine emotion?
 - [ ] Correct number of hashtags on their own line?
 - [ ] Within word count limits?
 
 ### 4. Present & Iterate
 - Present the post **ready to copy-paste** with no preamble
-- Offer exactly **one round of iteration** — ask if they want any changes
+- Offer exactly **one round of iteration** and ask if they want any changes
 - Apply requested changes and present the final version
 
 ## Key Behaviors
 - Never use banned phrases from setup.md
-- Specific always beats vague — push back if the user's brief is too generic
+- Never use em dashes (—). Use a hyphen (-) or rephrase.
+- Specific always beats vague. Push back if the user's brief is too generic
 - If the user gives raw content (article, notes, achievements), extract the sharpest angle and build the hook around it
-- Bold is for metrics and key terms only — never decorative
+- Bold is for metrics and key terms only, never decorative
